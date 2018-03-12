@@ -35,7 +35,7 @@ public class HelloWorldController {
 	
 	@GetMapping( path="/hello-world/path-variable/{name}")
 	public HelloWorldBean helloWorldPathVariable(@PathVariable String name){
-		return new HelloWorldBean(String.format("Hi From hello world bean with path variable named %s",name));
+		return new HelloWorldBean(String.format("Hi From bean with path variable named %s",name));
 	}
 	
 	@GetMapping(path = "/hello-world-internationalized")
