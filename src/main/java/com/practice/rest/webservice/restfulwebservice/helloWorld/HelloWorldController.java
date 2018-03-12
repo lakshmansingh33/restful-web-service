@@ -20,7 +20,7 @@ public class HelloWorldController {
 	
 	@RequestMapping(method=RequestMethod.GET, path="/hello-world")
 	public String helloWorld(){
-		return "Hi From Hello World Controller";
+		return "Hi From Hello World Controller with path /hello-world";
 	}
 	
 	@GetMapping( path="/greetMessage")
