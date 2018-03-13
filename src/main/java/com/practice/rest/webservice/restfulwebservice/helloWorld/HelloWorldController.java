@@ -25,7 +25,7 @@ public class HelloWorldController {
 	
 	@GetMapping( path="/greetMessage")
 	public String greetMessage(){
-		return "Hi From greetMessage method with path /greetMessage";
+		return "Hi From greetMessage method";
 	}
 	
 	@GetMapping( path="/hello-world-bean")
